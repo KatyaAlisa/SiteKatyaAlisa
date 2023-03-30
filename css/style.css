@@ -1,0 +1,172 @@
+@charset "uft-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    color: black;
+    font-family: "Segou UI", Arial, sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+    float: left;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: azure;
+}
+
+a,
+a:hover {
+    -webkit-transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -o-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    transition: all.6s ease;
+
+}
+
+.clear {
+    clear: both;
+}
+
+/*стили для шапки*/
+header {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding: 1%;
+    background-color: rgb(156, 191, 255);
+    border-bottom: 2px solid rgb(15, 14, 97);
+    margin-bottom: 20px;
+}
+
+header #logo {
+    width: 40%;
+    float: left;
+    color: black;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+}
+
+header #menuHead {
+    width: 30%;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+header #menuHead div:hover {
+    background-color: rgb(156, 191, 255);
+}
+
+header #regAuth {
+    width: 30%;
+    float: left;
+    text-align: right;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+#wrapper {
+    width: 100%;
+    float: left;
+}
+
+.leftCol {
+    display: block;
+}
+
+.leftColTitle {
+    width: 30%;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+/*Стили для footer*/
+
+footer {
+    width: 98%;
+    float: left;
+    padding: 1%;
+    /* background-color: rgb(192, 213, 252); */
+    border-top: 2px solid silver;
+    margin-top: 10px;
+}
+
+footer #social {
+    float: left;
+    width: 50%;
+}
+
+.carts {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.item {
+    background: #fff;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0px rgba(58, 57, 57, .6);
+}
+
+.itemContent {
+    padding: 20px;
+}
+
+.title {
+    display: block;
+    position: relative; 
+    text-decoration: none;
+    color: rgb(15, 14, 97);
+    font-size: 18px ;
+    font-weight: 600;
+    padding-bottom: 10px;
+    transition: all .15s;
+}
+
+.title:hover {
+    color: rgba(15, 14, 97, .6);
+}
+
+.content {
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.price {
+    color: rgba(15, 14, 97, .8);
+    margin-top: 10px;
+    font-size: 26px;
+}
+
+.title::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+
+.img img {
+    width: 400px;
+}
