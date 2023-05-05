@@ -83,8 +83,10 @@ header #regAuth {
 }
 
 #wrapper {
-    width: 100%;
-    float: left;
+    padding: 40px 0;
+    margin: 0 auto;
+    max-width: 1700px;
+
 }
 
 .leftCol {

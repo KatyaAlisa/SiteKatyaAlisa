@@ -16,7 +16,7 @@
             <div class="carts">
                 <div class="item">
                     <div class="img">
-                        <img src="https://www.r-ulybka.ru/upload/iblock/536/53674e877a2f6b8ebc1726cbe6ed36e8.jpg"  alt="">
+                        <img src="img/Obodok.png"  alt="">
                     </div>
                     <div class="itemContent">
                         <a href="" class="title">Ободок для волос Ameli " Бисер "</a>
@@ -25,7 +25,39 @@
                         <h2 class="price">229  ₽</h2>
                     </div>
                 </div>
-                
+                <div class="item">
+                    <div class="img">
+                        <img src="img/sergi.png"  alt="">
+                    </div>
+                    <div class="itemContent">
+                        <a href="" class="title">Серьги "Космос"</a>
+                        <p class="content">Цены и размер начисляемых баллов в отдельных розничных магазинах, на сайте и мобильном приложении могут отличаться.
+                            Внешний вид товара может отличаться от представленного на сайте.</p>
+                        <h2 class="price">150  ₽</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="img/braslet.png"  alt="">
+                    </div>
+                    <div class="itemContent">
+                        <a href="" class="title">Жемчужный браслет</a>
+                        <p class="content">Цены и размер начисляемых баллов в отдельных розничных магазинах, на сайте и мобильном приложении могут отличаться.
+                            Внешний вид товара может отличаться от представленного на сайте.</p>
+                        <h2 class="price">500  ₽</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="img/sumcka.png"  alt="">
+                    </div>
+                    <div class="itemContent">
+                        <a href="" class="title">Плюшевая сумка</a>
+                        <p class="content">Цены и размер начисляемых баллов в отдельных розничных магазинах, на сайте и мобильном приложении могут отличаться.
+                            Внешний вид товара может отличаться от представленного на сайте.</p>
+                        <h2 class="price">1500  ₽</h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
